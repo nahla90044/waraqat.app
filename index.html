@@ -24,11 +24,16 @@
   <div class="wrap">
     <a href="index.html" class="brand"><img src="assets/icon.png" alt="ورقات" /> ورقات</a>
     <div class="nav-links">
-      <a href="#tools">الأدوات</a>
-      <a href="#why">لماذا ورقات</a>
-      <a href="support.html">الدعم</a>
-      <a href="privacy.html">الخصوصية</a>
-      <a href="#download" class="cta">حمّل التطبيق</a>
+      <a href="#tools" data-i18n="nav_tools">الأدوات</a>
+      <a href="#why" data-i18n="nav_why">لماذا ورقات</a>
+      <a href="support.html" data-i18n="nav_support">الدعم</a>
+      <a href="privacy.html" data-i18n="nav_privacy">الخصوصية</a>
+      <a href="#download" class="cta" data-i18n="nav_download">حمّل التطبيق</a>
+      <div class="lang-switch">
+        <button type="button" data-lang="ar">ع</button>
+        <button type="button" data-lang="en">EN</button>
+        <button type="button" data-lang="fr">FR</button>
+      </div>
     </div>
   </div>
 </nav>
@@ -39,20 +44,20 @@
     <div class="hero-copy">
       <span class="eyebrow">
         <svg viewBox="0 0 24 24" fill="none"><path d="M12 2l7 3v6c0 4.5-3 8.3-7 9-4-0.7-7-4.5-7-9V5l7-3z" fill="currentColor"/><path d="M9 12l2 2 4-4" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        خصوصية كاملة — على جهازك
+        <span data-i18n="hero_eyebrow">خصوصية كاملة — على جهازك</span>
       </span>
-      <h1>كل أدوات الـ PDF<br>في مكان واحد<span class="accent">.</span></h1>
-      <p class="lead">ادمج، قسّم، اضغط، امسح ضوئياً، وقّع بعلامة مائية، واحمِ ملفاتك — كل ذلك بدون ما يغادر أي ملف جوالك.</p>
+      <h1><span data-i18n="hero_h1a">كل أدوات الـ PDF</span><br><span data-i18n="hero_h1b">في مكان واحد</span><span class="accent">.</span></h1>
+      <p class="lead" data-i18n="hero_lead">ادمج، قسّم، اضغط، امسح ضوئياً، وقّع بعلامة مائية، واحمِ ملفاتك — كل ذلك بدون ما يغادر أي ملف جوالك.</p>
       <div class="hero-cta">
         <a href="#download" class="store-badge soon">
           <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.5 2c.1 1-.3 2-1 2.8-.7.8-1.7 1.4-2.7 1.3-.1-1 .3-2 1-2.7C14.5 2.5 15.6 2 16.5 2zm2.8 7.2c-.6.4-1.4 1.1-1.4 2.4 0 1.5 1.3 2.1 1.4 2.1-.1.2-.4 1.3-1.2 2.4-.7.9-1.4 1.9-2.4 1.9s-1.3-.6-2.5-.6-1.5.6-2.5.6-1.7-.9-2.4-1.9c-1.4-2-2.5-5.6-1-8 .7-1.2 2-2 3.3-2 1 0 1.9.7 2.5.7.6 0 1.7-.8 2.9-.7.5 0 1.9.2 2.8 1.5z"/></svg>
-          <span><span class="sb-small">قريباً على</span><span class="sb-big">App Store</span></span>
+          <span><span class="sb-small" data-i18n="badge_small">قريباً على</span><span class="sb-big" data-i18n="badge_big">App Store</span></span>
         </a>
-        <a href="#tools" class="btn btn-ghost">استكشف الأدوات</a>
+        <a href="#tools" class="btn btn-ghost" data-i18n="btn_explore">استكشف الأدوات</a>
       </div>
       <div class="hero-note">
         <svg viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="var(--green)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        مجاني بالكامل · بدون حسابات · بدون إعلانات
+        <span data-i18n="hero_note">مجاني بالكامل · بدون حسابات · بدون إعلانات</span>
       </div>
     </div>
 
@@ -63,33 +68,33 @@
         <div class="phone-screen">
           <div class="ps-inner">
             <div class="ps-head">
-              <div class="ps-title">ورقات<small>أدواتك للـ PDF — بخصوصية</small></div>
+              <div class="ps-title"><span data-i18n="ps_title">ورقات</span><small data-i18n="ps_subtitle">أدواتك للـ PDF — بخصوصية</small></div>
               <div class="ps-logo">
                 <svg viewBox="0 0 24 24" fill="none"><path d="M7 3h6l4 4v12a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z" fill="#fff"/><path d="M9 13l2 2 4-4" stroke="#0E9E6E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
               </div>
             </div>
-            <div class="ps-search">ابحث عن أداة…</div>
-            <div class="ps-banner">🔒 كل المعالجة على جهازك</div>
+            <div class="ps-search" data-i18n="ps_search">ابحث عن أداة…</div>
+            <div class="ps-banner" data-i18n="ps_banner">🔒 كل المعالجة على جهازك</div>
 
             <div class="ps-row">
               <div class="ps-ic" style="background:var(--c-organize-bg);color:var(--c-organize-fg)"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-              <div class="txt"><b>دمج PDF</b><span>اجمع عدة ملفات في ملف</span></div>
+              <div class="txt"><b data-i18n="ps_merge_t">دمج PDF</b><span data-i18n="ps_merge_d">اجمع عدة ملفات في ملف</span></div>
             </div>
             <div class="ps-row">
               <div class="ps-ic" style="background:var(--c-convert-bg);color:var(--c-convert-fg)"><svg viewBox="0 0 24 24" fill="none"><path d="M4 8a2 2 0 0 1 2-2h1l1.2-1.6a1 1 0 0 1 .8-.4h4a1 1 0 0 1 .8.4L16 6h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8z" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12.5" r="3" stroke="currentColor" stroke-width="1.8"/></svg></div>
-              <div class="txt"><b>مسح ضوئي</b><span>صوّر مستنداتك ضوئياً</span></div>
+              <div class="txt"><b data-i18n="ps_scan_t">مسح ضوئي</b><span data-i18n="ps_scan_d">صوّر مستنداتك ضوئياً</span></div>
             </div>
             <div class="ps-row">
               <div class="ps-ic" style="background:var(--c-edit-bg);color:var(--c-edit-fg)"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3s6 6.5 6 10.5A6 6 0 0 1 6 13.5C6 9.5 12 3 12 3z" fill="currentColor"/></svg></div>
-              <div class="txt"><b>علامة مائية</b><span>نص فوق كل صفحة</span></div>
+              <div class="txt"><b data-i18n="ps_wm_t">علامة مائية</b><span data-i18n="ps_wm_d">نص فوق كل صفحة</span></div>
             </div>
             <div class="ps-row">
               <div class="ps-ic" style="background:var(--c-optimize-bg);color:var(--c-optimize-fg)"><svg viewBox="0 0 24 24" fill="none"><path d="M9 4L5 8m0 0l4 4M5 8h6m4 12l4-4m0 0l-4-4m4 4h-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-              <div class="txt"><b>ضغط PDF</b><span>قلّل حجم الملف</span></div>
+              <div class="txt"><b data-i18n="ps_compress_t">ضغط PDF</b><span data-i18n="ps_compress_d">قلّل حجم الملف</span></div>
             </div>
             <div class="ps-row">
               <div class="ps-ic" style="background:var(--c-security-bg);color:var(--c-security-fg)"><svg viewBox="0 0 24 24" fill="none"><rect x="5" y="10" width="14" height="10" rx="2" stroke="currentColor" stroke-width="1.9"/><path d="M8 10V7a4 4 0 0 1 8 0v3" stroke="currentColor" stroke-width="1.9"/></svg></div>
-              <div class="txt"><b>حماية بكلمة سر</b><span>شفّر ملفك بأمان</span></div>
+              <div class="txt"><b data-i18n="ps_protect_t">حماية بكلمة سر</b><span data-i18n="ps_protect_d">شفّر ملفك بأمان</span></div>
             </div>
           </div>
         </div>
@@ -101,11 +106,11 @@
 <!-- Trust bar -->
 <div class="trust">
   <div class="wrap">
-    <div class="item"><svg viewBox="0 0 24 24" fill="none"><path d="M12 2l7 3v6c0 4.5-3 8.3-7 9-4-.7-7-4.5-7-9V5l7-3z" stroke="currentColor" stroke-width="1.8"/><path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> يعمل على جهازك</div>
-    <div class="item"><svg viewBox="0 0 24 24" fill="none"><path d="M18 8A6 6 0 1 0 6 8" stroke="currentColor" stroke-width="1.8"/><path d="M3 12l3 3 3-3M21 12l-3 3-3-3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> بدون رفع للملفات</div>
-    <div class="item"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="4" stroke="currentColor" stroke-width="1.8"/><path d="M4 21c0-4 3.6-6 8-6s8 2 8 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M2 4l20 16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg> بدون حسابات</div>
-    <div class="item"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M8 12h8M12 8v8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg> مجاني بالكامل</div>
-    <div class="item"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M3 12h18M12 3c2.5 3 2.5 15 0 18M12 3c-2.5 3-2.5 15 0 18" stroke="currentColor" stroke-width="1.6"/></svg> عربي · English · Français</div>
+    <div class="item"><svg viewBox="0 0 24 24" fill="none"><path d="M12 2l7 3v6c0 4.5-3 8.3-7 9-4-.7-7-4.5-7-9V5l7-3z" stroke="currentColor" stroke-width="1.8"/><path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> <span data-i18n="trust_1">يعمل على جهازك</span></div>
+    <div class="item"><svg viewBox="0 0 24 24" fill="none"><path d="M18 8A6 6 0 1 0 6 8" stroke="currentColor" stroke-width="1.8"/><path d="M3 12l3 3 3-3M21 12l-3 3-3-3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> <span data-i18n="trust_2">بدون رفع للملفات</span></div>
+    <div class="item"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="4" stroke="currentColor" stroke-width="1.8"/><path d="M4 21c0-4 3.6-6 8-6s8 2 8 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M2 4l20 16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg> <span data-i18n="trust_3">بدون حسابات</span></div>
+    <div class="item"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M8 12h8M12 8v8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg> <span data-i18n="trust_4">مجاني بالكامل</span></div>
+    <div class="item"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M3 12h18M12 3c2.5 3 2.5 15 0 18M12 3c-2.5 3-2.5 15 0 18" stroke="currentColor" stroke-width="1.6"/></svg> <span data-i18n="trust_5">عربي · English · Français</span></div>
   </div>
 </div>
 
@@ -113,63 +118,58 @@
 <section id="tools">
   <div class="wrap">
     <div class="sec-head">
-      <span class="kicker">الأدوات</span>
-      <h2>كل ما تحتاجه لملفات الـ PDF</h2>
-      <p>أدوات كاملة منظّمة بذكاء — كلها تعمل على جهازك مباشرة، بسرعة وبدون إنترنت.</p>
+      <span class="kicker" data-i18n="tools_kicker">الأدوات</span>
+      <h2 data-i18n="tools_h2">كل ما تحتاجه لملفات الـ PDF</h2>
+      <p data-i18n="tools_p">أدوات كاملة منظّمة بذكاء — كلها تعمل على جهازك مباشرة، بسرعة وبدون إنترنت.</p>
     </div>
     <div class="tools-grid">
-      <!-- organize -->
       <div class="tool">
         <div class="t-ic" style="background:var(--c-organize-bg);color:var(--c-organize-fg)"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-        <div><b>دمج PDF</b><span>اجمع عدة ملفات في ملف واحد</span></div>
+        <div><b data-i18n="t_merge_t">دمج PDF</b><span data-i18n="t_merge_d">اجمع عدة ملفات في ملف واحد</span></div>
       </div>
       <div class="tool">
         <div class="t-ic" style="background:var(--c-organize-bg);color:var(--c-organize-fg)"><svg viewBox="0 0 24 24" fill="none"><circle cx="6" cy="7" r="2.5" stroke="currentColor" stroke-width="1.9"/><circle cx="6" cy="17" r="2.5" stroke="currentColor" stroke-width="1.9"/><path d="M8.5 7H15l4 4M8.5 17H15l4-4" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-        <div><b>تقسيم PDF</b><span>قسّم الملف إلى عدة ملفات</span></div>
+        <div><b data-i18n="t_split_t">تقسيم PDF</b><span data-i18n="t_split_d">قسّم الملف إلى عدة ملفات</span></div>
       </div>
       <div class="tool">
         <div class="t-ic" style="background:var(--c-organize-bg);color:var(--c-organize-fg)"><svg viewBox="0 0 24 24" fill="none"><rect x="4" y="4" width="7" height="7" rx="1.5" stroke="currentColor" stroke-width="1.9"/><rect x="13" y="4" width="7" height="7" rx="1.5" stroke="currentColor" stroke-width="1.9"/><rect x="4" y="13" width="7" height="7" rx="1.5" stroke="currentColor" stroke-width="1.9"/><path d="M16.5 14v5M14 16.5h5" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg></div>
-        <div><b>تنظيم الصفحات</b><span>احذف أو أعد ترتيب الصفحات</span></div>
+        <div><b data-i18n="t_organize_t">تنظيم الصفحات</b><span data-i18n="t_organize_d">احذف أو أعد ترتيب الصفحات</span></div>
       </div>
       <div class="tool">
         <div class="t-ic" style="background:var(--c-organize-bg);color:var(--c-organize-fg)"><svg viewBox="0 0 24 24" fill="none"><path d="M8 3h5l4 4v3" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/><path d="M17 4v4h4" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/><rect x="3" y="12" width="10" height="9" rx="1.5" stroke="currentColor" stroke-width="1.9"/></svg></div>
-        <div><b>استخراج صفحات</b><span>اختر صفحات معينة في ملف جديد</span></div>
+        <div><b data-i18n="t_extract_t">استخراج صفحات</b><span data-i18n="t_extract_d">اختر صفحات معينة في ملف جديد</span></div>
       </div>
-      <!-- edit -->
       <div class="tool">
         <div class="t-ic" style="background:var(--c-edit-bg);color:var(--c-edit-fg)"><svg viewBox="0 0 24 24" fill="none"><path d="M4 12a8 8 0 1 1 2.3 5.6" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/><path d="M4 18v-4h4" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-        <div><b>تدوير PDF</b><span>دوّر صفحات ملفك</span></div>
+        <div><b data-i18n="t_rotate_t">تدوير PDF</b><span data-i18n="t_rotate_d">دوّر صفحات ملفك</span></div>
       </div>
       <div class="tool">
         <div class="t-ic" style="background:var(--c-edit-bg);color:var(--c-edit-fg)"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3s6 6.5 6 10.5A6 6 0 0 1 6 13.5C6 9.5 12 3 12 3z" fill="currentColor"/></svg></div>
-        <div><b>علامة مائية</b><span>أضف نصاً فوق كل صفحة</span></div>
+        <div><b data-i18n="t_watermark_t">علامة مائية</b><span data-i18n="t_watermark_d">أضف نصاً فوق كل صفحة</span></div>
       </div>
       <div class="tool">
         <div class="t-ic" style="background:var(--c-edit-bg);color:var(--c-edit-fg)"><svg viewBox="0 0 24 24" fill="none"><path d="M6 4v16M18 4v16M3 9h5M3 15h5M16 9h5M16 15h5" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg></div>
-        <div><b>أرقام الصفحات</b><span>أضف ترقيماً للصفحات</span></div>
+        <div><b data-i18n="t_pagenum_t">أرقام الصفحات</b><span data-i18n="t_pagenum_d">أضف ترقيماً للصفحات</span></div>
       </div>
-      <!-- optimize -->
       <div class="tool">
         <div class="t-ic" style="background:var(--c-optimize-bg);color:var(--c-optimize-fg)"><svg viewBox="0 0 24 24" fill="none"><path d="M9 4L5 8m0 0l4 4M5 8h6m4 12l4-4m0 0l-4-4m4 4h-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-        <div><b>ضغط PDF</b><span>قلّل حجم الملف</span></div>
+        <div><b data-i18n="t_compress_t">ضغط PDF</b><span data-i18n="t_compress_d">قلّل حجم الملف</span></div>
       </div>
-      <!-- convert -->
       <div class="tool">
         <div class="t-ic" style="background:var(--c-convert-bg);color:var(--c-convert-fg)"><svg viewBox="0 0 24 24" fill="none"><path d="M4 8a2 2 0 0 1 2-2h1l1.2-1.6a1 1 0 0 1 .8-.4h4a1 1 0 0 1 .8.4L16 6h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8z" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12.5" r="3" stroke="currentColor" stroke-width="1.8"/></svg></div>
-        <div><b>مسح ضوئي</b><span>صوّر مستنداتك وحوّلها إلى PDF</span></div>
+        <div><b data-i18n="t_scan_t">مسح ضوئي</b><span data-i18n="t_scan_d">صوّر مستنداتك وحوّلها إلى PDF</span></div>
       </div>
       <div class="tool">
         <div class="t-ic" style="background:var(--c-convert-bg);color:var(--c-convert-fg)"><svg viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.8"/><circle cx="8.5" cy="10" r="1.8" stroke="currentColor" stroke-width="1.6"/><path d="M4 17l5-4 3 2.5L16 11l4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-        <div><b>صور إلى PDF</b><span>حوّل صورك إلى ملف PDF</span></div>
+        <div><b data-i18n="t_images_t">صور إلى PDF</b><span data-i18n="t_images_d">حوّل صورك إلى ملف PDF</span></div>
       </div>
       <div class="tool">
         <div class="t-ic" style="background:var(--c-convert-bg);color:var(--c-convert-fg)"><svg viewBox="0 0 24 24" fill="none"><path d="M8 3h5l4 4v13a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z" stroke="currentColor" stroke-width="1.8"/><path d="M13 3v4h4" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M9.3 12l.9 4 1.3-4 1.3 4 .9-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-        <div><b>Word إلى PDF</b><span>حوّل مستندات Word</span></div>
+        <div><b data-i18n="t_word_t">Word إلى PDF</b><span data-i18n="t_word_d">حوّل مستندات Word</span></div>
       </div>
-      <!-- security -->
       <div class="tool">
         <div class="t-ic" style="background:var(--c-security-bg);color:var(--c-security-fg)"><svg viewBox="0 0 24 24" fill="none"><rect x="5" y="10" width="14" height="10" rx="2" stroke="currentColor" stroke-width="1.9"/><path d="M8 10V7a4 4 0 0 1 8 0v3" stroke="currentColor" stroke-width="1.9"/></svg></div>
-        <div><b>حماية PDF</b><span>أضف كلمة سر للملف</span></div>
+        <div><b data-i18n="t_protect_t">حماية PDF</b><span data-i18n="t_protect_d">أضف كلمة سر للملف</span></div>
       </div>
     </div>
   </div>
@@ -179,30 +179,30 @@
 <section id="why" class="why">
   <div class="wrap">
     <div class="sec-head">
-      <span class="kicker">لماذا ورقات</span>
-      <h2>خصوصية حقيقية، لا وعود فقط</h2>
-      <p>معظم تطبيقات الـ PDF ترفع ملفاتك إلى خوادمها. ورقات لا يفعل — أبداً.</p>
+      <span class="kicker" data-i18n="why_kicker">لماذا ورقات</span>
+      <h2 data-i18n="why_h2">خصوصية حقيقية، لا وعود فقط</h2>
+      <p data-i18n="why_p">معظم تطبيقات الـ PDF ترفع ملفاتك إلى خوادمها. ورقات لا يفعل — أبداً.</p>
     </div>
     <div class="why-grid">
       <div class="feature">
         <div class="f-ic"><svg viewBox="0 0 24 24" fill="none"><path d="M12 2l8 3.5v6c0 5-3.4 9.4-8 10.5-4.6-1.1-8-5.5-8-10.5v-6L12 2z" stroke="currentColor" stroke-width="1.8"/><path d="M9 12l2 2 4-4.5" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-        <h3>كل شيء على جهازك</h3>
-        <p>الدمج، الضغط، المسح الضوئي، الحماية — كل العمليات تتم داخل جوالك. لا يُرفع أي ملف إلى أي خادم، ويعمل التطبيق حتى بدون إنترنت.</p>
+        <h3 data-i18n="feat1_t">كل شيء على جهازك</h3>
+        <p data-i18n="feat1_d">الدمج، الضغط، المسح الضوئي، الحماية — كل العمليات تتم داخل جوالك. لا يُرفع أي ملف إلى أي خادم، ويعمل التطبيق حتى بدون إنترنت.</p>
       </div>
       <div class="feature">
         <div class="f-ic"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M3 12h18M12 3c2.6 3 2.6 15 0 18M12 3c-2.6 3-2.6 15 0 18" stroke="currentColor" stroke-width="1.6"/></svg></div>
-        <h3>بثلاث لغات</h3>
-        <p>واجهة عربية كاملة (يمين لليسار)، وإنجليزية، وفرنسية — تتكيّف تلقائياً مع لغة جهازك واتجاهها.</p>
+        <h3 data-i18n="feat2_t">بثلاث لغات</h3>
+        <p data-i18n="feat2_d">واجهة عربية كاملة (يمين لليسار)، وإنجليزية، وفرنسية — تتكيّف تلقائياً مع لغة جهازك واتجاهها.</p>
       </div>
       <div class="feature">
         <div class="f-ic"><svg viewBox="0 0 24 24" fill="none"><path d="M4 8a2 2 0 0 1 2-2h1l1.2-1.6a1 1 0 0 1 .8-.4h4a1 1 0 0 1 .8.4L16 6h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8z" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12.5" r="3.2" stroke="currentColor" stroke-width="1.8"/></svg></div>
-        <h3>ماسح ضوئي احترافي</h3>
-        <p>اكتشاف حواف تلقائي، تصحيح للميلان، وتحسين للوضوح — يحوّل صور مستنداتك إلى PDF نظيف كأنه من ماسح حقيقي.</p>
+        <h3 data-i18n="feat3_t">ماسح ضوئي احترافي</h3>
+        <p data-i18n="feat3_d">اكتشاف حواف تلقائي، تصحيح للميلان، وتحسين للوضوح — يحوّل صور مستنداتك إلى PDF نظيف كأنه من ماسح حقيقي.</p>
       </div>
       <div class="feature">
         <div class="f-ic"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12l4 4 10-10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-        <h3>مجاني بلا مقابل خفي</h3>
-        <p>كل الأدوات متاحة مجاناً — بدون اشتراكات، بدون إعلانات، وبدون أدوات تتبّع أو تحليلات من أي طرف ثالث.</p>
+        <h3 data-i18n="feat4_t">مجاني بلا مقابل خفي</h3>
+        <p data-i18n="feat4_d">كل الأدوات متاحة مجاناً — بدون اشتراكات، بدون إعلانات، وبدون أدوات تتبّع أو تحليلات من أي طرف ثالث.</p>
       </div>
     </div>
   </div>
@@ -212,14 +212,14 @@
 <section class="shots">
   <div class="wrap">
     <div class="sec-head">
-      <span class="kicker">من داخل التطبيق</span>
-      <h2>تصميم أنيق وسهل</h2>
-      <p>واجهة هادئة ومنظّمة تجعل كل مهمة تنتهي بضغطتين.</p>
+      <span class="kicker" data-i18n="shots_kicker">من داخل التطبيق</span>
+      <h2 data-i18n="shots_h2">تصميم أنيق وسهل</h2>
+      <p data-i18n="shots_p">واجهة هادئة ومنظّمة تجعل كل مهمة تنتهي بضغطتين.</p>
     </div>
     <div class="shots-row">
-      <img src="assets/shot-home.png" alt="الشاشة الرئيسية لتطبيق ورقات" loading="lazy" />
-      <img src="assets/shot-scan.png" alt="المسح الضوئي في تطبيق ورقات" loading="lazy" />
-      <img src="assets/shot-privacy.png" alt="خصوصية تطبيق ورقات" loading="lazy" />
+      <img src="assets/shot-home.png" alt="Waraqat home" loading="lazy" />
+      <img src="assets/shot-scan.png" alt="Waraqat scan" loading="lazy" />
+      <img src="assets/shot-privacy.png" alt="Waraqat privacy" loading="lazy" />
     </div>
   </div>
 </section>
@@ -228,11 +228,11 @@
 <section id="download">
   <div class="wrap">
     <div class="cta-band">
-      <h2>جرّب ورقات اليوم</h2>
-      <p>أدواتك للـ PDF، بخصوصية كاملة — مجاناً على آيفون.</p>
+      <h2 data-i18n="cta_h2">جرّب ورقات اليوم</h2>
+      <p data-i18n="cta_p">أدواتك للـ PDF، بخصوصية كاملة — مجاناً على آيفون.</p>
       <a href="#" class="store-badge">
         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.5 2c.1 1-.3 2-1 2.8-.7.8-1.7 1.4-2.7 1.3-.1-1 .3-2 1-2.7C14.5 2.5 15.6 2 16.5 2zm2.8 7.2c-.6.4-1.4 1.1-1.4 2.4 0 1.5 1.3 2.1 1.4 2.1-.1.2-.4 1.3-1.2 2.4-.7.9-1.4 1.9-2.4 1.9s-1.3-.6-2.5-.6-1.5.6-2.5.6-1.7-.9-2.4-1.9c-1.4-2-2.5-5.6-1-8 .7-1.2 2-2 3.3-2 1 0 1.9.7 2.5.7.6 0 1.7-.8 2.9-.7.5 0 1.9.2 2.8 1.5z"/></svg>
-        <span><span class="sb-small">قريباً على</span><span class="sb-big">App Store</span></span>
+        <span><span class="sb-small" data-i18n="badge_small">قريباً على</span><span class="sb-big" data-i18n="badge_big">App Store</span></span>
       </a>
     </div>
   </div>
@@ -244,31 +244,32 @@
     <div class="cols">
       <div>
         <div class="brand" style="font-size:22px"><img src="assets/icon.png" alt="" style="width:34px;height:34px;border-radius:9px" /> ورقات</div>
-        <p class="f-about">أدوات PDF كاملة بخصوصية حقيقية — كل المعالجة على جهازك، وملفاتك لا تغادر جوالك أبداً.</p>
+        <p class="f-about" data-i18n="foot_about">أدوات PDF كاملة بخصوصية حقيقية — كل المعالجة على جهازك، وملفاتك لا تغادر جوالك أبداً.</p>
       </div>
       <div>
-        <h4>التطبيق</h4>
+        <h4 data-i18n="foot_app">التطبيق</h4>
         <ul>
-          <li><a href="#tools">الأدوات</a></li>
-          <li><a href="#why">لماذا ورقات</a></li>
-          <li><a href="#download">حمّل التطبيق</a></li>
+          <li><a href="#tools" data-i18n="foot_l_tools">الأدوات</a></li>
+          <li><a href="#why" data-i18n="foot_l_why">لماذا ورقات</a></li>
+          <li><a href="#download" data-i18n="foot_l_download">حمّل التطبيق</a></li>
         </ul>
       </div>
       <div>
-        <h4>الدعم</h4>
+        <h4 data-i18n="foot_support">الدعم</h4>
         <ul>
-          <li><a href="support.html">مركز المساعدة</a></li>
-          <li><a href="privacy.html">سياسة الخصوصية</a></li>
-          <li><a href="mailto:nahlah@nahlah.io">تواصل معنا</a></li>
+          <li><a href="support.html" data-i18n="foot_l_help">مركز المساعدة</a></li>
+          <li><a href="privacy.html" data-i18n="foot_l_privacy">سياسة الخصوصية</a></li>
+          <li><a href="mailto:nahlah@nahlah.io" data-i18n="foot_l_contact">تواصل معنا</a></li>
         </ul>
       </div>
     </div>
     <div class="bottom">
       <span>© 2026 ورقات · waraqat.app</span>
-      <span>صُنع في الرياض 💚 · تصميم nahla</span>
+      <span data-i18n="foot_made">صُنع في الرياض 💚 · تصميم nahla</span>
     </div>
   </div>
 </footer>
 
+<script src="i18n.js"></script>
 </body>
 </html>

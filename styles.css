@@ -64,6 +64,16 @@ section { padding: 76px 0; }
 }
 .nav-links a.cta:hover { background: var(--green-dark); color: #fff; }
 
+/* Language switch */
+.lang-switch { display: inline-flex; gap: 2px; background: var(--surfaceAlt, #EAF0EC); border: 1px solid var(--line); border-radius: 999px; padding: 3px; margin-inline-start: 4px; }
+.lang-switch button {
+  font-family: inherit; font-weight: 700; font-size: 13px; cursor: pointer;
+  border: none; background: transparent; color: var(--muted);
+  padding: 5px 11px; border-radius: 999px; transition: .15s; line-height: 1;
+}
+.lang-switch button:hover { color: var(--ink); }
+.lang-switch button.on { background: var(--green); color: #fff; }
+
 /* ---------- Buttons ---------- */
 .btn {
   display: inline-flex; align-items: center; justify-content: center; gap: 10px;
@@ -120,7 +130,10 @@ section { padding: 76px 0; }
 }
 .phone-screen { background: var(--bg); border-radius: 33px; overflow: hidden; height: 600px; position: relative; }
 .phone-notch { position: absolute; top: 10px; left: 50%; transform: translateX(-50%); width: 108px; height: 28px; background: #0b0f0d; border-radius: 999px; z-index: 3; }
-.ps-inner { padding: 44px 16px 16px; direction: rtl; }
+.ps-inner { padding: 44px 16px 16px; }
+.ps-row .txt { text-align: start; }
+[dir="ltr"] .ps-banner { justify-content: flex-start; }
+[dir="ltr"] .ps-title, [dir="ltr"] .ps-row .txt { text-align: left; }
 .ps-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; }
 .ps-title { font-size: 24px; font-weight: 800; }
 .ps-title small { display: block; font-size: 10px; font-weight: 500; color: var(--muted); margin-top: 2px; }
